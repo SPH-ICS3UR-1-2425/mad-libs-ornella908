@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		/*
 		 * MadLibs Program
-		 * Author: 
+		 * Author: Ornella Gaju 
 		 * Class: ICS3U
 		 * Date: Sept. 16, 2024
 		 * Make a program that asks for 10 inputs
