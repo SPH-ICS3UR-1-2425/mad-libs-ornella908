@@ -14,10 +14,23 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("Give  me a name?");
+		
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		int num1 = in.nextInt();
+		System.out.println("Give me a place: ");
+		//flush
+		String place = in.nextLine();
+		System.out.println("Give me an event: ");
+		String event = in.nextLine();
+		System.out.println("Give me any time: ");
+		
+		System.out.println("One day, "+name+"  went to "+place+" for "+name+" "+event+".  ");
+		
 
+		
+		
+		
 	}
 
 }
