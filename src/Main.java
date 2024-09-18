@@ -13,19 +13,25 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("Give  me a name?");
-		
+		System.out.println("Give  me a name: ");
 		String name = in.nextLine();
-		int num1 = in.nextInt();
-		System.out.println("Give me a place: ");
-		//flush
-		String place = in.nextLine();
+		System.out.println("Give me a country : ");
+		String country = in.nextLine();
 		System.out.println("Give me an event: ");
 		String event = in.nextLine();
 		System.out.println("Give me any time: ");
+		int time = in.nextInt();
+		System.out.println("Give me a decimal: ");
+		double decNumber = in.nextDouble(); 
+		System.out.println("Give me a song");
+		String song = in.nextLine();
 		
-		System.out.println("One day, "+name+"  went to "+place+" for "+name+" "+event+".  ");
+		
+		
+		
+		
+	
+		System.out.println("One day, "+name+"  went to "+country+" for a "+event+". The concert was supposed to begin at "+time+" but Drake was "+decNumber+" minutes late. The first song he perfomed was "+song);
 		
 
 		
