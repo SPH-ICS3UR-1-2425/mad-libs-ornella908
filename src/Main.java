@@ -24,14 +24,17 @@ public class Main {
 		System.out.println("Give me a decimal: ");
 		double decNumber = in.nextDouble(); 
 		System.out.println("Give me a song");
+	//flush
+		
 		String song = in.nextLine();
-		
-		
-		
+		System.out.println("Name a pizza");
+		String pizza = in.nextLine();
+		System.out.println("Name any sodas");
+		String sodas = in.nextLine();
 		
 		
 	
-		System.out.println("One day, "+name+"  went to "+country+" for a "+event+". The concert was supposed to begin at "+time+" but Drake was "+decNumber+" minutes late. The first song he perfomed was "+song);
+		System.out.println("One day, "+name+"  went to "+country+" for a "+event+". The concert was supposed to begin at "+time+" but Daniel Caesar was "+decNumber+" minutes late. The first song he perfomed was "+song+" hehen ordered a few of his fans "+pizza+" and some "+sodas+".The concert
 		
 
 		
