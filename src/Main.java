@@ -38,9 +38,9 @@ public class Main {
 		 
 		
 	
-		System.out.println("One day, "+name+"  went to "+country+" for a "+event+".");
-		System.out.println("The concert was supposed to begin "+ "at "+time+" but Daniel Caesar was "+decNumber+" minutes late.");
-		System.out.println("The first song he perfomed was "+DanielCaesarsong+" and then he ordered  "+pizza+" for a few of his fans  and some "+sodas+".");
+		System.out.println("One day, "+name+" went to "+country+" for a "+event+".");
+		System.out.println("The "+event+" was supposed to begin at "+time+", but Daniel Caesar was "+decNumber+" minutes late.");
+		System.out.println("The first song he perfomed was "+DanielCaesarsong+", and then he ordered "+pizza+sodas+" for a few of his fans.");
 		System.out.println("He returned to "+spanishhotel+" and "+anyrelaxingactivity+"."); 
 		
         in.close();
